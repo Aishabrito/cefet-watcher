@@ -1,4 +1,5 @@
-name: Monitoramento CEFET
+
+name: Monitoramento CEFET v2
 on:
   schedule:
     - cron: '*/30 * * * *' # Roda automaticamente a cada 30 minutos
@@ -6,7 +7,7 @@ on:
 
 jobs:
   check:
-    runs-on: ubuntu-latest
+    runs-on:  ubuntu-latest
     steps:
       - name: Checkout do código
         uses: actions/checkout@v3
