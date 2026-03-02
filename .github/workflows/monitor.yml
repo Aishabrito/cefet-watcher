@@ -1,0 +1,28 @@
+name: Monitoramento CEFET
+on:
+  schedule:
+    - cron: '*/30 * * * *' # Roda automaticamente a cada 30 minutos
+  workflow_dispatch: # Permite que você rode manualmente clicando num botão no GitHub
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v3
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Instalar dependências
+        run: npm install
+
+      - name: Executar script de monitoramento
+        run: npx tsx index.ts
+        env:
+          # Estas variáveis você vai configurar no painel do GitHub depois
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
