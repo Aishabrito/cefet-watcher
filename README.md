@@ -1,7 +1,7 @@
 # 🎓 CEFET-RJ Updates Watcher
 > Bot automatizado para monitorar atualizações no site do CEFET-RJ e enviar notificações via e-mail.
 
-Este projeto foi desenvolvido para garantir que nenhuma atualização importante do CEFET seja perdida, utilizando técnicas de **Web Scraping** e **CI/CD**.
+Este projeto foi desenvolvido para garantir que nenhuma atualização importante do sisu CEFET seja perdida, utilizando técnicas de **Web Scraping** e **CI/CD**.
 
 ## 🚀 Tecnologias Utilizadas
 * **TypeScript** & **Node.js**: Linguagem e ambiente de execução.
