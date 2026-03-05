@@ -1,13 +1,14 @@
-
-name: Monitoramento CEFET v2
+name: Monitoramento Oficial CEFET
 on:
   schedule:
-    - cron: '*/30 * * * *' # Roda automaticamente a cada 30 minutos
-  workflow_dispatch: # Permite que você rode manualmente clicando num botão no GitHub
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
 
 jobs:
   check:
-    runs-on:  ubuntu-latest
+    runs-on: ubuntu-latest
+    permissions: # Dá permissão para o robô salvar arquivos no seu GitHub
+      contents: write
     steps:
       - name: Checkout do código
         uses: actions/checkout@v3
@@ -20,10 +21,17 @@ jobs:
       - name: Instalar dependências
         run: npm install
 
-      - name: Executar script de monitoramento
+      - name: Executar script
         run: npx tsx index.ts
         env:
-          # Estas variáveis você vai configurar no painel do GitHub depois
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
           EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
+
+      - name: Salvar progresso
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add last_content.txt
+          git commit -m "🔄 Atualizando rastro do site" || echo "Sem mudanças"
+          git push
