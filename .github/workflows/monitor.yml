@@ -32,6 +32,6 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add last_content.txt
-          git commit -m "🔄 Atualizando rastro do site" || echo "Sem mudanças"
+          git add -f last_content.txt  # O '-f' força a inclusão mesmo estando no .gitignore
+          git commit -m "Bot: Atualizando último conteúdo verificado" || echo "Sem alterações para salvar"
           git push
