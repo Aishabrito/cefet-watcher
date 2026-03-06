@@ -1,20 +1,20 @@
 name: Monitoramento Oficial CEFET
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 */2 * * *' 
   workflow_dispatch:
 
 jobs:
   check:
     runs-on: ubuntu-latest
-    permissions: # Dá permissão para o robô salvar arquivos no seu GitHub
+    permissions:
       contents: write
     steps:
       - name: Checkout do código
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Configurar Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
@@ -32,6 +32,6 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add -f last_content.txt  # O '-f' força a inclusão mesmo estando no .gitignore
-          git commit -m "Bot: Atualizando último conteúdo verificado" || echo "Sem alterações para salvar"
+          git add -f last_content.txt
+          git commit -m "Bot: Atualizando último conteúdo verificado" || exit 0
           git push
