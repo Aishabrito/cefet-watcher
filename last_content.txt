@@ -16,11 +16,11 @@ PROCESSO SELETIVO PARA OS CURSOS DE GRADUAÇÃO - EDIÇÃO ÚNICA DO SISU 2026 p
 			|			
 
 					
-				Última atualização em Quinta, 05 de Março de 2026, 21h54			
+				Última atualização em Sexta, 06 de Março de 2026, 19h25			
 			|			
 		
 					
-				Acessos: 193325			
+				Acessos: 193540			
 					
 		
 	
@@ -69,7 +69,10 @@ js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
 
 
 	
-		LINKS DE ACESSO ÀS SALAS VIRTUAIS DAS BANCAS DE HETEROIDENTIFICAÇÃO (VIA MICROSOFT TEAMS) - ATENÇÃO: ACESSAR O LINK SOMENTE NO DIA 09/03 NO HORÁRIO PREVISTO PARA A ENTREVISTA INDIVIDUAL (RELAÇÃO DE CANDIDATOS NO ITEM ANTERIOR)
+		_______________________________________________________________________________________________________________________________________
+(06/03/2026)
+________________________________________________________________________________________________________________________________________
+LINKS DE ACESSO ÀS SALAS VIRTUAIS DAS BANCAS DE HETEROIDENTIFICAÇÃO (VIA MICROSOFT TEAMS) - ATENÇÃO: ACESSAR O LINK SOMENTE NO DIA 09/03 NO HORÁRIO PREVISTO PARA A ENTREVISTA INDIVIDUAL (RELAÇÃO DE CANDIDATOS NO ITEM ANTERIOR)
 COMUNICADO AOS QUE JÁ FORAM ALUNOS DO ENSINO MÉDIO NO CEFET/RJ: NÃO ACESSAR O TEAMS COM O LOGIN DE ALUNO; REGISTRAR COMO VISITANTE COM SEU NOME E SOBRENOME
 ________________________________________________________________________________________________________________________________________
 CONVOCAÇÃO DA 1ª RECLASSIFICAÇÃO DA LISTA DE ESPERA - PROCEDIMENTO DE HETEROIDENTIFICAÇÃO: RELAÇÃO DOS CANDIDATOS CONVOCADOS PARA HETEROIDENTIFICAÇÃO - DIA 09 DE MARÇO: Relação convocados com horário (RETIFICAÇÃO DO TIPO DE CONCORRÊNCIA EM 05/03/2026)
@@ -130,12 +133,12 @@ ________________________________________________________________________________
 PROCEDIMENTO DE HETEROIDENTIFICAÇÃO - CONVOCAÇÃO PARA BANCA RECURSAL DE HETEROIDENTIFICAÇÃO DOS CANDIDATOS AUTODECLARADOS PPIs (VIDEOCHAMADA): Relação de candidatosATENÇÃO: CONVOCAÇÃO DE BANCA RECURSAL DE HETEROIDENTIFICAÇÃO - PROCEDIMENTO ACONTECERÁ ONLINE (VIDEOCHAMADA) VIA PLATAFORMA MICROSOFT TEAMS ACESSAR O LINK QUE SERÁ ENVIADO AO E-MAIL CADASTRADO NO ENEM/SISU 2026 ATÉ O DIA 09 DE FEVEREIROOS CANDIDATOS MENORES DE 18 ANOS DEVERÃO ESTAR ACOMPANHADOS DOS RESPONSÁVEIS LEGAISCANDIDATO QUE NÃO COMPARECEU NAS BANCAS ORDINÁRIAS NÃO SERÁ ATENDIDO; A BANCA RECURSAL É APENAS PARA CANDIDATOS INDEFERIDOS
 __________________________________________________________________________________________________________________________________________
 FASE RECURSAL DE HETEROIDENTIFICAÇÃO: CANDIDATOS INDEFERIDOS DEVEM ENVIAR E-MAIL PARA O endereço de e-mail address está sendo protegido de spambots. Você precisa ativar o JavaScript enabled para vê-lo.
-				document.getElementById('cloak928c949e5debe6c23907971b62f46170').innerHTML = '';
+				document.getElementById('cloak8e5f052b2478074851777049f6cde576').innerHTML = '';
 				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
 				var path = 'hr' + 'ef' + '=';
-				var addy928c949e5debe6c23907971b62f46170 = 'cp&#105;c&#101;r' + '&#64;';
-				addy928c949e5debe6c23907971b62f46170 = addy928c949e5debe6c23907971b62f46170 + 'c&#101;f&#101;t-rj' + '&#46;' + 'br';
-				var addy_text928c949e5debe6c23907971b62f46170 = 'cp&#105;c&#101;r' + '&#64;' + 'c&#101;f&#101;t-rj' + '&#46;' + 'br';document.getElementById('cloak928c949e5debe6c23907971b62f46170').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy928c949e5debe6c23907971b62f46170 + '\'>'+addy_text928c949e5debe6c23907971b62f46170+'<\/a>';
+				var addy8e5f052b2478074851777049f6cde576 = 'cp&#105;c&#101;r' + '&#64;';
+				addy8e5f052b2478074851777049f6cde576 = addy8e5f052b2478074851777049f6cde576 + 'c&#101;f&#101;t-rj' + '&#46;' + 'br';
+				var addy_text8e5f052b2478074851777049f6cde576 = 'cp&#105;c&#101;r' + '&#64;' + 'c&#101;f&#101;t-rj' + '&#46;' + 'br';document.getElementById('cloak8e5f052b2478074851777049f6cde576').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy8e5f052b2478074851777049f6cde576 + '\'>'+addy_text8e5f052b2478074851777049f6cde576+'<\/a>';
 		 COM TÍTULO: "RECURSO CONTRA INDEFERIMENTO NA BANCA (INFORMAR O NÚMERO DA BANCA) SISU 2026 - NOME E SOBRENOME" ATÉ 21:00 DO DIA 06/02/2026
 __________________________________________________________________________________________________________________________________________
 COMUNICADO Nº 04/2026 - Altera o prazo de recurso e realização da banca recursal: Arquivo
@@ -310,12 +313,12 @@ ________________________________________________________________________________
 Comunicado 41/2026 - CECER - JUSTIFICA A REALIZAÇÃO DAS BANCAS DE HETEROIDENTIFICAÇÃO POR VIDEOCHAMADA (ONLINE) - Arquivo
 ______________________________________________________________________________________________________________________________
 CONVOCAÇÃO PARA OS CANDIDATOS INDÍGENAS E QUILOMBOLAS INSCRITOS NO EDITAL Nº 01/2026 - SISU 2026 - Relação de candidatos - ArquivoOS CANDIDATOS QUILOMBOLAS DEVERÃO ENVIAR OS DOCUMENTOS REFERENTES À COTA QUILOMBOLA PARA O E-MAIL O endereço de e-mail address está sendo protegido de spambots. Você precisa ativar o JavaScript enabled para vê-lo.
-				document.getElementById('cloak5a49ad48a2a33f0f91f47622048897f6').innerHTML = '';
+				document.getElementById('cloak2330a83d714d03791b1bfedd04b8e10f').innerHTML = '';
 				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
 				var path = 'hr' + 'ef' + '=';
-				var addy5a49ad48a2a33f0f91f47622048897f6 = 'cp&#105;c&#101;r' + '&#64;';
-				addy5a49ad48a2a33f0f91f47622048897f6 = addy5a49ad48a2a33f0f91f47622048897f6 + 'c&#101;f&#101;t-rj' + '&#46;' + 'br';
-				var addy_text5a49ad48a2a33f0f91f47622048897f6 = 'cp&#105;c&#101;r' + '&#64;' + 'c&#101;f&#101;t-rj' + '&#46;' + 'br';document.getElementById('cloak5a49ad48a2a33f0f91f47622048897f6').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy5a49ad48a2a33f0f91f47622048897f6 + '\'>'+addy_text5a49ad48a2a33f0f91f47622048897f6+'<\/a>';
+				var addy2330a83d714d03791b1bfedd04b8e10f = 'cp&#105;c&#101;r' + '&#64;';
+				addy2330a83d714d03791b1bfedd04b8e10f = addy2330a83d714d03791b1bfedd04b8e10f + 'c&#101;f&#101;t-rj' + '&#46;' + 'br';
+				var addy_text2330a83d714d03791b1bfedd04b8e10f = 'cp&#105;c&#101;r' + '&#64;' + 'c&#101;f&#101;t-rj' + '&#46;' + 'br';document.getElementById('cloak2330a83d714d03791b1bfedd04b8e10f').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy2330a83d714d03791b1bfedd04b8e10f + '\'>'+addy_text2330a83d714d03791b1bfedd04b8e10f+'<\/a>';
 		 COM O  TÍTULO "SISU 2026/NOME DO CANDIDATO/ CANDIDATO QUILOMBOLA" ATÉ O DIA 03/02/2026  DOCUMENTOS RELATIVOS A CANDIDATOS INDÍGENAS E QUILOMBOLAS (incluído em 31/01/2026): Arquivo
 ______________________________________________________________________________________________________________________________
 PROCEDIMENTO DE HETEROIDENTIFICAÇÃO - CONVOCAÇÃO PARA AVERIGUAÇÃO FENOTÍPICA DOS CANDIDATOS AUTODECLARADOS PPIs: Arquivo
