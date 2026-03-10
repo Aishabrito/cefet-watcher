@@ -1,13 +1,12 @@
-
 name: Monitoramento CEFET v2
 on:
   schedule:
-    - cron: '*/30 * * * *' # Roda automaticamente a cada 30 minutos
-  workflow_dispatch: # Permite que você rode manualmente clicando num botão no GitHub
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
 
 jobs:
   check:
-    runs-on:  ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout do código
         uses: actions/checkout@v3
@@ -17,13 +16,26 @@ jobs:
         with:
           node-version: 20
 
+      # 👇 NOVO: Restaura o arquivo salvo da execução anterior
+      - name: Restaurar conteúdo anterior
+        uses: actions/cache@v3
+        with:
+          path: ./last_content.txt
+          key: cefet-content-cache
+
       - name: Instalar dependências
         run: npm install
 
       - name: Executar script de monitoramento
         run: npx tsx index.ts
         env:
-          # Estas variáveis você vai configurar no painel do GitHub depois
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
           EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
+
+      # 👇 NOVO: Salva o arquivo para a próxima execução
+      - name: Salvar conteúdo atual
+        uses: actions/cache/save@v3
+        with:
+          path: ./last_content.txt
+          key: cefet-content-cache-${{ github.run_id }}
